@@ -12,7 +12,7 @@ from collections import defaultdict
 
 INTERFACE = os.getenv("INTERFACE", "eno3")
 SUBNET_PREFIX = os.getenv("SUBNET_PREFIX", "10.0.40.")
-PORT = int(os.getenv("EXPORTER_PORT", "9090"))
+PORT = int(os.getenv("EXPORTER_PORT", "9000"))
 INTERVAL = int(os.getenv("INTERVAL", "5"))
 
 # =========================
